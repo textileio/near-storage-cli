@@ -29,7 +29,7 @@
 # Install
 
 ```bash
-npm i -g @textile/near-storage-cli
+npm i -g near-cli @textile/near-storage-cli
 ```
 
 ## Usage

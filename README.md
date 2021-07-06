@@ -5,8 +5,8 @@
 [![Release](https://img.shields.io/github/release/textileio/near-storage-cli.svg)](https://github.com/textileio/near-storage-cli/releases/latest)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg)](https://github.com/RichardLitt/standard-readme)
 
-[![Docs](https://github.com/textileio/near-storage-cli/workflows/Docs/badge.svg)](https://github.com/textileio/near-storage-cli/actions/workflows/docs.yml)
-[![Tests](https://github.com/textileio/near-storage-cli/workflows/Test/badge.svg)](https://github.com/textileio/near-storage-cli/actions/workflows/test.yml)
+<!-- [![Docs](https://github.com/textileio/near-storage-cli/workflows/Docs/badge.svg)](https://github.com/textileio/near-storage-cli/actions/workflows/docs.yml)
+[![Tests](https://github.com/textileio/near-storage-cli/workflows/Test/badge.svg)](https://github.com/textileio/near-storage-cli/actions/workflows/test.yml) -->
 
 > Command-line utilities for Textile's Broker-based data storage system on the Near blockchain.
 
@@ -72,7 +72,7 @@ near login
 # Follow prompts
 ```
 
-Most commands require the `--accountId` flag to be set, so you can sign transactions on the NEAR network. However, you can make things a lot easier on yourself by creating a `.env` file that contains this (and other credentials):
+Most commands require the `--accountId` flag to be set, so you can sign transactions on the NEAR network. However, you can make things a lot easier on yourself by creating a `.env` file that contains this (and other credentials). Any of the above top-level flags can be added to the `.env` file, such that `networkId` becomes `NETWORK_ID`, `accountId` becomes `ACCOUNT_ID`, and so on.
 
 ```bash
 echo ACCOUNT_ID=account.testnet > .env

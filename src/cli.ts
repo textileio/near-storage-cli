@@ -235,17 +235,17 @@ yargs(process.argv.slice(2))
   .option("brokerId", {
     desc: "The broker with which to interact",
     type: "string",
-    default: process.env.BROKER_ID || "filecoin-bridge-edge.testnet",
+    default: process.env.BROKER_ID || "filecoin-bridge.testnet",
   })
   .option("brokerAddr", {
     desc: "The address of the broker with which to interact",
     type: "string",
-    default: process.env.BROKER_ADDR || "https://broker.edge.textile.dev",
+    default: process.env.BROKER_ADDR || "https://broker.textile.dev",
   })
   .option("contractId", {
     desc: "The smart contract with which to interact",
     type: "string",
-    default: process.env.CONTRACT_ID || "filecoin-bridge-edge.testnet",
+    default: process.env.CONTRACT_ID || "filecoin-bridge.testnet",
   })
   .middleware(createKeyStore)
   .command(add)

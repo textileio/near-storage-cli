@@ -240,7 +240,7 @@ yargs(process.argv.slice(2))
   .option("brokerAddr", {
     desc: "The address of the broker with which to interact",
     type: "string",
-    default: process.env.BROKER_ADDR || "https://broker.textile.dev",
+    default: process.env.BROKER_ADDR || "https://broker.staging.textile.dev",
   })
   .option("contractId", {
     desc: "The smart contract with which to interact",

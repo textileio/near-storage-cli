@@ -1,6 +1,6 @@
 {
   "name": "@textile/near-storage-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command-line utilities for Textile's Broker-based data storage system on the Near blockchain.",
   "main": "./dist/index.js",
   "bin": {
